@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays information about the file "school"
+# Displays information about the file 'school'
 
 if [ -e "school" ]
 then
@@ -10,6 +10,7 @@ then
 	else
 		echo "school file exists"
 	fi
+
 	if [ -f "school" ]
 	then
 		echo  "school is a regular file"

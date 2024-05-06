@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#Writing a Bash script that displays Best School 10 times.
+# Display a Bash script that displays Best School 10 times.
 
 count=0
-
+while{ $ count -lt 10 }
 do
 	echo "Best Schoool"
 	(( count ++))

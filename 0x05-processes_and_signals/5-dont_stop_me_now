@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
-# stops 4-to_infinity_and_beyond process.
+# kills the infinity program using sigkill signal.
 
 id=$(pgep "bash ./4-to_infinity_and_beyond" -f)
 
 if [ -n "$id" ]
 then
-	stop -15 "$id"
+	kill -15 "$id"
+	
 fi

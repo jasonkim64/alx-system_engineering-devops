@@ -2,7 +2,7 @@
 # Display a Bash script that displays Best School 10 times.
 
 count=0
-while [ $ count -it 10 ]
+while [ $count -lt 10 ]
 do
 	echo "Best Schoool"
 	(( count ++ ))
